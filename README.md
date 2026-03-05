@@ -23,11 +23,15 @@
    const CONFIG = {
      DRIFT_API_TOKEN: 'your_actual_api_token_here',
      DRIFT_ORG_ID: 'your_org_id_here',
+     INPUT_CSV_FILE: 'your input file of drift convo ids',
+     OUTPUT_CSV_FILE: 'name of the output file of transcripts'
      // ... rest of config
    };
    ```
 
 ## Running the Script
+
+Before running the script, be sure to have the csv file referenced in the CONFIG object as "INPUT_CSV_FILE" available. See the included csv as an example. To retrieve a list of conversation Ids from Drift, use the Chat Data [report](https://app.drift.com/reports/conversations/data).
 
 ```bash
 # Install dependencies (if not already installed)
