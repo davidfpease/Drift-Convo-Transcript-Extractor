@@ -4,8 +4,8 @@
 
 1. **Get your Drift API Token:**
    - Log into your Drift account
-   - Go to Settings > App Store > Build Your Own App
-   - Create a new app or use an existing one
+   - Go to dev.drift.com 
+   - [Create a new app](https://devdocs.drift.com/docs/quick-start#1-create-an-app-) or use an existing one
    - Copy your OAuth Token or API Key
 
 2. **Find your Organization ID:**
